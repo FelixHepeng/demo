@@ -25,6 +25,7 @@ public class Controller {
     @GetMapping("/sendDirectMessage")
     public String sendDirectMessage() {
         jenkinsInfoAcquireService.getSystemInfo();
+
         return "success";
     }
 
